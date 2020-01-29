@@ -1,0 +1,21 @@
+{{ define "index.layout" }}
+
+{{ template "fixednav.layout" . }}
+{{ template "index.content" .}}
+
+{{ end }}
+
+{{ define "index.content" }}
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner">
+			</div>
+		</div>
+	</div>
+
+	<div class="caption text-center">
+		<h1>Welcome to my.come</h1>
+		<h3>my first bootstrap 4 theme</h3>
+		<a href="#course" class="btn btn-outline-light btn-lg">Get Started</a>
+	</div>
+{{ end }}
